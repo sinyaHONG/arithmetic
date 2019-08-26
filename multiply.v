@@ -112,7 +112,7 @@ always @(posedge clk or negedge rst_n) begin
 				end 
 			s5: begin
 					done <= 1;
-					state <= s5;
+					state <= s1;
 			
 			end 
 			
